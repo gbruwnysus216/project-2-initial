@@ -17,24 +17,34 @@ public class Project2 {
         The following code works with the example design given.
          */
 
-        /*ThreeDimensionalShape sphere = new Sphere(2.0);
-        ThreeDimensionalShape cube = new Cube(5.0);
-        ThreeDimensionalShape cylinder = new Cylinder(4.0, 1.0);
+        ThreeDimensionalShape s = new Sphere(2.0);
+        ThreeDimensionalShape r = new Rhombohedron(5.0,60);
+        ThreeDimensionalShape p = new Prism(4.0,4.0,4.0, 1.0);
+        ThreeDimensionalShape c = new Cube(2.0);
+        ThreeDimensionalShape cy = new Cylinder(2.0, 4.0);
 
         // We'll cover this stuff in module 4
         List<ThreeDimensionalShape> shapes = new ArrayList<>();
-        shapes.add(sphere);
-        shapes.add(cube);
-        shapes.add(cylinder);
+        shapes.add(s);
+        shapes.add(r);
+        shapes.add(p);
+        shapes.add(c);
+        shapes.add(cy);
 
-        shapes.forEach(System.out::println);*/
+        shapes.forEach(System.out::println);
 
         /*
         The following code works with the code given.
          */
 
-        Sphere sphere = new Sphere(2.0);
-        System.out.println(sphere);
+        Sphere s2 = new Sphere(2.0);
+        Rhombohedron r2 = new Rhombohedron(2.0,80);
+        Prism p2 = new Prism(4.0,4.0,4.0, 2.5);
+
+//        System.out.println(s2);
+//        System.out.println(r2);
+//        System.out.println(p2);
+
     }
 
 }
